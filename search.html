@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./images/logo.png" type="image/icon type">
+    <title>Yummy</title>
+    <!-- =================================fontswaome=================================-->
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <!-- =================================bootstrap================================= -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <!-- =================================style css================================= -->
+    <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+
+    <!-- ------------------Start Navbar------------------ -->
+    <section id="nav" class=" ps-0 d-flex ">
+
+        <div class=" pe-1 d-flex flex-column justify-content-between" id="links">
+            <ul class="list-unstyled p-3">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="search.html">Search</a></li>
+                <li><a href="categories.html">Categories</a></li>
+                <li><a href="area.html">Area</a></li>
+                <li><a href="ingrediants.html">Ingrediants</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+            <div class="icons text-white py-4 px-2  ">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-solid fa-globe"></i>
+                <p>Copyright Â© 2019 All Rights <br>
+                    Reserved.</p>
+            </div>
+
+        </div>
+        <div id="toggle" class="position-relative d-flex flex-column justify-content-between p-3 align-items-center">
+
+            <img src="./images/logo.png" alt="" class="img-fluid pt-3">
+            <div class="icon   fa-2x" id="menu-toggle"><i class="fa-solid fa-bars"></i>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-globe"></i>
+                <br>
+                <i class="fa-solid fa-share-nodes"></i>
+            </div>
+
+        </div>
+
+    </section>
+    <!-- ------------------End Navbar------------------ -->
+
+    <!-- ------------------Start search------------------ -->
+    <section id="search" class="py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="item">
+                        <input type="text" class="form-control" placeholder="Search by Name" id="searchByName">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="item">
+                        <input type="text" class="form-control" placeholder="Search by First letter" id="searchByLetter"
+                            min="0" max="1" maxlength="1">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ------------------End search-------------------- -->
+
+
+
+    <!-- ------------------Start Home------------------ -->
+    <section id="home-search" class="py-5">
+        <div class="container">
+            <div class="row g-4" id="home-meals-search">
+                <!-- <div class="col-lg-3 col-md-4">
+                    <div class="item   rounded-3 overflow-hidden">
+                        <div class="image position-relative">
+                            <img src="./images/58oia61564916529.jpg" alt="f" class="img-fluid">
+
+                            <div class="layer position-absolute d-flex justify-content-center align-items-center">
+                                <div class="meal-name ">
+                                    corba
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </section>
+    <!-- ------------------End Home------------------ -->
+
+
+    <!-- ------------------Start load section--------------- -->
+    <section id="load"
+        class="d-none position-absolute top-0 start-0 end-0 bottom-0 d-flex justify-content-center align-items-center">
+        <div class="container d-flex justify-content-center">
+            <i class="fa-solid fa-spinner fa-5x text-white fa-spin"></i>
+        </div>
+    </section>
+    <!-- ------------------End load section--------------- -->
+
+
+    <!--===================================JQuery=================================== -->
+    <script src="./js/jquery-3.6.3.min.js"></script>
+    <!--=================================fontawsome================================= -->
+    <!-- <script src="./js/all.min.js"></script> -->
+    <!-- =================================bootstrap================================= -->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <!-- =================================js================================= -->
+    <script type="module" src="./js/script.js"></script>
+</body>
+
+</html>
